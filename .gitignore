@@ -15,14 +15,7 @@ ENV/
 .mypy_cache/
 .ruff_cache/
 
-# Generated datasets
-data/raw_url.csv
-data/phishing_22_features.csv
-data/phishing_22_features_checkpoint.csv
-data/processed/
 
-# Trained model and generated plots
-models/
 
 # Local environment and logs
 .env
