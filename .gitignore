@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter and tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated datasets
+data/raw_url.csv
+data/phishing_22_features.csv
+data/phishing_22_features_checkpoint.csv
+data/processed/
+
+# Trained model and generated plots
+models/
+
+# Local environment and logs
+.env
+*.log
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
